@@ -22,7 +22,7 @@ public class EventHandlerExample extends Application
     public void start(Stage primaryStage) throws Exception
     {
 
-        Button button = new Button("Press to continue");
+        Button button = new Button("Press to continue ");
         Label label = new Label("Hmm...");
 
         EventHandler myHandler = new SimpleEventHandler(label);
