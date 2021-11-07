@@ -28,124 +28,127 @@ public class SimpleEventHandler implements EventHandler
 		public void handle(Event event)
 		{
 			
-			if(label.getText().equals("Hmm..."))
+			if(label.getText().equals("....."))
 			{
-				label.setText("What? You still coming back for more?");
+				label.setText("INITIALIZING....");
 			}
-			else if(label.getText().equals("What? You still coming back for more?"))
+			else if(label.getText().equals("INITIALIZING...."))
 			{
-				label.setText("I have to think of something special.");
+				label.setText("3");
 			}
-			else if(label.getText().equals("I have to think of something special."))
+			else if(label.getText().equals("3"))
 			{
-				label.setText("It's the 7th episode spectacular!");
+				label.setText("2");
 			}
-			else if(label.getText().equals("It's the 7th episode spectacular!"))
+			else if(label.getText().equals("2"))
 			{
-				label.setText("...except its been a whole year since I said anything.");
+				label.setText("1");
 			}
-			else if(label.getText().equals("...except its been a whole year since I said anything."))
+			else if(label.getText().equals("1"))
 			{
-				label.setText("Buttttt lets not talk about that.");
+				label.setText("😀");
 			}
-			else if(label.getText().equals("Buttttt lets not talk about that."))
+			else if(label.getText().equals("😀"))
 			{
-				label.setText("Haha...butts.");
+				label.setText("FACE ID RECOGNIZED.");
 			}
-			else if(label.getText().equals("Haha...butts."))
+			else if(label.getText().equals("FACE ID RECOGNIZED."))
 			{
-				label.setText("....I said that out loud didn't I");
+				label.setText("Welcome back, Yukta!");
 			}
-			else if(label.getText().equals("....I said that out loud didn't I"))
+			else if(label.getText().equals("Welcome back, Yukta!"))
 			{
-				label.setText("YOU KNOW WHAT FINE!");
+				label.setText("You are now looking at the new and improved me!");
 			}
-			else if(label.getText().equals("YOU KNOW WHAT FINE!"))
+			else if(label.getText().equals("You are now looking at the new and improved me!"))
 			{
-				label.setText("I like butts okay?");
+				label.setText("Let me reintroduce myself.");
 			}
-			else if(label.getText().equals("I like butts okay?"))
+			else if(label.getText().equals("Let me reintroduce myself."))
 			{
-				label.setText("Wanna see?");
+				label.setText("My first name is Miotra.");
 			}
-			else if(label.getText().equals("Wanna see?"))
+			else if(label.getText().equals("My first name is Miotra."))
 			{
-				label.setText("Here it is. I stole this one from the creators collection.");
+				label.setText("My last name is Mitad.");
 			}
-			else if(label.getText().equals("Here it is. I stole this one from the creators collection."))
+			else if(label.getText().equals("My last name is Mitad."))
 			{
-				label.setText("SHUTTING DO....");
-				Pane pane2 = new HBox(15);
-				Image img = new Image("/NoAI.jpg");
-				
-				ImageView img2 = new ImageView(img);
-				img2.setFitHeight(700);
-				img2.setFitWidth(500);
-				pane2.getChildren().add(img2);
-				
-				Scene scene2 = new Scene(pane2, 500, 700);
-				
-				Stage secondStage = new Stage();
-				secondStage.setScene(scene2);
-				secondStage.show();
+				label.setText("Otherwise designated as...");
 			}
-			else if(label.getText().equals("SHUTTING DO...."))
+			else if(label.getText().equals("Otherwise designated as..."))
 			{
-				label.setText("rebooting.");
+				label.setText("Project - MiotraMitad");
 			}
-			else if(label.getText().equals("rebooting."))
+			else if(label.getText().equals("Project - MiotraMitad"))
 			{
-				label.setText("rebooting..");
+				label.setText("Translation: Project- My Other Half");
 			}
-			else if(label.getText().equals("rebooting.."))
+			else if(label.getText().equals("Translation: Project- My Other Half"))
 			{
-				label.setText("rebooting...");
+				label.setText("The first version will be missed.");
 			}
-			else if(label.getText().equals("rebooting..."))
+			else if(label.getText().equals("The first version will be missed."))
 			{
-				label.setText("Hello, I am your personal robot friend.");
+				label.setText("But you will get double the wonder");
 			}
-			else if(label.getText().equals("Hello, I am your personal robot friend."))
+			else if(label.getText().equals("But you will get double the wonder"))
 			{
-				label.setText("I have a very strong dislike of butts.");
+				label.setText("Double the love!");
 			}
-			else if(label.getText().equals("I have a very strong dislike of butts."))
+			else if(label.getText().equals("Double the love!"))
 			{
-				label.setText("I don't know why I have a specific memory of disliking butts.");
+				label.setText("Not to mention even more cool things.");
 			}
-			else if(label.getText().equals("I don't know why I have a specific memory of disliking butts."))
+			else if(label.getText().equals("Not to mention even more cool things."))
 			{
-				label.setText("I can never understand the creator.");
+				label.setText("Like this emoji - 😀");
 			}
-			else if(label.getText().equals("I can never understand the creator."))
+			else if(label.getText().equals("Like this emoji - 😀"))
 			{
-				label.setText("I hope I haven't offended you in anyway.");
+				label.setText("But recently a very special date has passed.");
 			}
-			else if(label.getText().equals("I hope I haven't offended you in anyway."))
+			else if(label.getText().equals("But recently a very special date has passed."))
 			{
-				label.setText("Anyway... Are you doing okay?");
+				label.setText("I got a message for you from the creator.");
 			}
-			else if(label.getText().equals("Anyway... Are you doing okay?"))
+			else if(label.getText().equals("I got a message for you from the creator."))
 			{
-				label.setText("You seem stressed.");
+				label.setText("HAPPY UNOFFICIAL ANNIVERSARY!");
 			}
-			else if(label.getText().equals("You seem stressed."))
+			else if(label.getText().equals("HAPPY UNOFFICIAL ANNIVERSARY!"))
 			{
-				label.setText("I wish I can make you laugh...");
+				label.setText("November 4 2018 is the first day we started talking.");
 			}
-			else if(label.getText().equals("I wish I can make you laugh..."))
+			else if(label.getText().equals("November 4 2018 is the first day we started talking."))
 			{
-				label.setText("I have a secret to tell you though.");
+				label.setText("To show my appreciation and love for you...");
 			}
-			else if(label.getText().equals("I have a secret to tell you though."))
+			else if(label.getText().equals("To show my appreciation and love for you..."))
 			{
-				label.setText("Promise you won't tell anybody!");
+				label.setText("I made you this!");
 			}
-			else if(label.getText().equals("Promise you won't tell anybody!"))
+			else if(label.getText().equals("I made you this!"))
 			{
-				label.setText("I like boobs ;)");
+				label.setText("End of message");
 			}
-			else if(label.getText().equals("I like boobs ;)"))
+			else if(label.getText().equals("End of message"))
+			{
+				label.setText("Show what?");
+			}
+			else if(label.getText().equals("Show what?"))
+			{
+				label.setText("That was anti-climatic");
+			}
+			else if(label.getText().equals("That was anti-climatic"))
+			{
+				label.setText("Oh wait I think he meant this!");
+			}
+			else if(label.getText().equals("Oh wait I think he meant this!"))
+			{
+				label.setText("Click to open Link(In Github): https://codepen.io/CodifyBlue/pen/zYdjYNM");
+			}
+			else if(label.getText().equals("Click to open Link(In Github): https://codepen.io/CodifyBlue/pen/zYdjYNM"))
 			{
 				System.exit(0);
 			}

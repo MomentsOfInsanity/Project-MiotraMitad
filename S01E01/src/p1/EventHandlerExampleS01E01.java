@@ -23,12 +23,12 @@ public class EventHandlerExampleS01E01 extends Application
     {
 
         Button button = new Button("Press to continue");
-        Label label = new Label("Hmm...");
+        Label label = new Label(".....");
 
         EventHandler myHandler = new SimpleEventHandler(label);
         button.setOnAction(myHandler);
 
-        primaryStage.setTitle("figure it out");
+        primaryStage.setTitle("S01E01");
 
         VBox pane = new VBox(20);
         pane.setAlignment(Pos.CENTER);
