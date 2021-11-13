@@ -2,12 +2,16 @@ package p1;
 
 import javafx.event.Event;
 import javafx.event.EventHandler;
+import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+import javafx.scene.media.MediaView;
 import javafx.stage.Stage;
 
 public class SimpleEventHandler implements EventHandler
@@ -47,10 +51,56 @@ public class SimpleEventHandler implements EventHandler
 			else if(label.getText().equals("We tried something new"))
 			{
 				label.setText("and saw something old.");
+				
+				Pane pane2 = new HBox(15);
+				Image img = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/Hibachi.PNG");
+				
+				
+				ImageView img2 = new ImageView(img);
+				img2.setFitHeight(800);
+				img2.setFitWidth(400);
+				pane2.getChildren().add(img2);
+				
+				Scene scene2 = new Scene(pane2, 400, 800);
+				
+				Stage secondStage = new Stage();
+				secondStage.setScene(scene2);
+				secondStage.show();
+				
 			}
 			else if(label.getText().equals("and saw something old."))
 			{
 				label.setText("We were at something blue...");
+				
+				Pane pane2 = new HBox(15);
+				Image img = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/dusk.jpg");
+				
+				
+				ImageView img2 = new ImageView(img);
+				img2.setFitHeight(800);
+				img2.setFitWidth(400);
+				pane2.getChildren().add(img2);
+				
+				Scene scene2 = new Scene(pane2, 400, 800);
+				
+				Stage secondStage = new Stage();
+				secondStage.setScene(scene2);
+				secondStage.show();
+				
+				Pane pane3 = new HBox(15);
+				Image img3 = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/Dawn.PNG");
+				
+				
+				ImageView img4 = new ImageView(img3);
+				img4.setFitHeight(800);
+				img4.setFitWidth(400);
+				pane3.getChildren().add(img4);
+				
+				Scene scene3 = new Scene(pane3, 400, 800);
+				
+				Stage thirdStage = new Stage();
+				thirdStage.setScene(scene3);
+				thirdStage.show();
 			}
 			else if(label.getText().equals("We were at something blue..."))
 			{
