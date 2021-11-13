@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 public class SimpleEventHandler implements EventHandler
 {
 	private Label label;
-	private Image img;
+	public Image img;
 	
 		public SimpleEventHandler(Label label)
 		{
@@ -57,14 +57,14 @@ public class SimpleEventHandler implements EventHandler
 				label.setText("if you count the sky and ocean.");
 				
 				Pane pane2 = new HBox(15);
-				Image img = new Image("/Beach.jpg");
+				Image img = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/Beach.jpg");
 				
 				ImageView img2 = new ImageView(img);
-				img2.setFitHeight(700);
-				img2.setFitWidth(500);
+				img2.setFitHeight(600);
+				img2.setFitWidth(800);
 				pane2.getChildren().add(img2);
 				
-				Scene scene2 = new Scene(pane2, 500, 700);
+				Scene scene2 = new Scene(pane2, 800, 600);
 				
 				Stage secondStage = new Stage();
 				secondStage.setScene(scene2);
