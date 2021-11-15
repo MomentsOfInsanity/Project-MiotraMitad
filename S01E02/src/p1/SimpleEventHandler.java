@@ -53,7 +53,7 @@ public class SimpleEventHandler implements EventHandler
 				label.setText("and saw something old.");
 				
 				Pane pane2 = new HBox(15);
-				Image img = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/Hibachi.PNG");
+				Image img = new Image("file:///Hibachi.PNG");
 				
 				
 				ImageView img2 = new ImageView(img);
@@ -73,7 +73,7 @@ public class SimpleEventHandler implements EventHandler
 				label.setText("We were at something blue...");
 				
 				Pane pane2 = new HBox(15);
-				Image img = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/dusk.jpg");
+				Image img = new Image("file:///dusk.jpg");
 				
 				
 				ImageView img2 = new ImageView(img);
@@ -88,7 +88,7 @@ public class SimpleEventHandler implements EventHandler
 				secondStage.show();
 				
 				Pane pane3 = new HBox(15);
-				Image img3 = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/Dawn.PNG");
+				Image img3 = new Image("file:///Dawn.PNG");
 				
 				
 				ImageView img4 = new ImageView(img3);
@@ -107,7 +107,7 @@ public class SimpleEventHandler implements EventHandler
 				label.setText("if you count the sky and ocean.");
 				
 				Pane pane2 = new HBox(15);
-				Image img = new Image("file:///Software/Eclipse/Projects/Playground/S01E02/resources/Beach.jpg");
+				Image img = new Image("file:///Beach.jpg");
 				
 				ImageView img2 = new ImageView(img);
 				img2.setFitHeight(600);
