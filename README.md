@@ -5,4 +5,4 @@ S01E01 - "I am Miotra Mitad" - November 7th 2021
 
 S01E02 - "Something New" - November 14th 2021
 
-S01E04 - "Good...." - November 14th 2021
+S01E04 - "Good...." - November 22th 2021
